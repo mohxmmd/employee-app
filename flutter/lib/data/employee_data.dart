@@ -1,0 +1,148 @@
+import '../models/employee.dart';
+
+final List<Employee> mockEmployees = [
+  Employee(
+    name: 'Alice Johnson',
+    role: 'Senior Manager',
+    joinedDate: DateTime(2017, 3, 12),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Bob Smith',
+    role: 'Junior Developer',
+    joinedDate: DateTime(2022, 7, 5),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Grace Lee',
+    role: 'Senior Designer',
+    joinedDate: DateTime(2016, 8, 30), 
+    isActive: false,
+  ),
+  Employee(
+    name: 'David Wilson',
+    role: 'Junior Tester',
+    joinedDate: DateTime(2021, 11, 10),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Catherine Brown',
+    role: 'Lead Designer',
+    joinedDate: DateTime(2015, 9, 1),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Emma Thompson',
+    role: 'Product Manager',
+    joinedDate: DateTime(2019, 10, 15),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Frank Miller',
+    role: 'Flutter Developer',
+    joinedDate: DateTime(2021, 2, 18),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Robert King',
+    role: 'Project Manager',
+    joinedDate: DateTime(2012, 4, 15),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Eva Green',
+    role: 'HR Director',
+    joinedDate: DateTime(2014, 6, 25),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Jack Wilson',
+    role: 'Intern Developer',
+    joinedDate: DateTime(2023, 9, 1),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Daniel Kim',
+    role: 'UX Researcher',
+    joinedDate: DateTime(2018, 12, 31),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Henry Davis',
+    role: 'Support Specialist',
+    joinedDate: DateTime(2023, 5, 12),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Ivy Thomas',
+    role: 'QA Lead',
+    joinedDate: DateTime(2013, 1, 20),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Maria Garcia',
+    role: 'System Architect',
+    joinedDate: DateTime(2011, 7, 22),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Lisa Wang',
+    role: 'Marketing Executive',
+    joinedDate: DateTime(2022, 1, 10),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Olivia Brown',
+    role: 'Backend Developer',
+    joinedDate: DateTime(2020, 1, 1),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Michael Chen',
+    role: 'CTO',
+    joinedDate: DateTime(2010, 11, 15),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Sophia Martinez',
+    role: 'Content Writer',
+    joinedDate: DateTime(2022, 6, 15),
+    isActive: false,
+  ),
+  Employee(
+    name: 'James Wilson',
+    role: 'Security Analyst',
+    joinedDate: DateTime(2017, 2, 28),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Tom Baker',
+    role: 'Data Analyst',
+    joinedDate: DateTime(2024, 3, 1),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Kevin Patel',
+    role: 'DevOps Engineer',
+    joinedDate: DateTime(2015, 3, 8),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Sarah Wilson',
+    role: 'Finance Head',
+    joinedDate: DateTime(2016, 12, 1),
+    isActive: true,
+  ),
+  Employee(
+    name: 'Alex Turner',
+    role: 'Sales Executive',
+    joinedDate: DateTime(2024, 1, 30),
+    isActive: false,
+  ),
+  Employee(
+    name: 'Rachel Adams',
+    role: 'Database Admin',
+    joinedDate: DateTime(2014, 12, 24),
+    isActive: true,
+  ),
+];

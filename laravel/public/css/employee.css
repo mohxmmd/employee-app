@@ -1,0 +1,48 @@
+.table tbody tr.highlight td {
+    background-color: #d4edda;
+}
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.filter-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.filter-btn {
+    background: none;
+    border: none;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+}
+.filter-btn:hover {
+    color: #495057;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    z-index: 1000;
+    padding: 0.5rem 0;
+}
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+.show {
+    display: block;
+}
